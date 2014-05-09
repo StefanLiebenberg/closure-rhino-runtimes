@@ -8,9 +8,9 @@ import java.io.IOException;
  */
 public class EnvRunner extends AbstractRunner {
 
-    private static final String ENV_RHINO_PATH = "/scripts/env.rhino.js";
+    private static final String ENV_RHINO_PATH = "/slieb/closure/runtimes/scripts/env.rhino.js";
 
-    private static final String RHINO_LOAD_PATH = "/scripts/load.rhino.js";
+    private static final String RHINO_LOAD_PATH = "/slieb/closure/runtimes//scripts/load.rhino.js";
 
     private void evaluateResourceQuietly(final String resourcePath) {
         try {
